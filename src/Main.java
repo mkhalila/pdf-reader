@@ -13,8 +13,6 @@ public class Main {
         PDFReaderView pdfReaderView = new PDFReaderView();
         Controller controller = new Controller(pdfReaderView);
         //controller.readFile("C:\\Users\\mkhal\\IdeaProjects\\PDFReader\\example.pdf");
-        //controller.readFile("C:\\\\Users\\\\mkhal\\\\Desktop\\\\Islamic Books\\\\HayatUsSahabah-Part-1.pdf");
-        //controller.readFile("C:\\Users\\mkhal\\IdeaProjects\\PDFReader\\islamic-guide-to-sexual-relations.pdf");
         controller.readFile("IslamicMannersByShaykhAbdulFattahAbuGhuddah.pdf");
         pdfReaderView.setVisible(true);
     }
